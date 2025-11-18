@@ -1,0 +1,83 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: #f2f2f2;
+}
+
+
+header {
+background-color: #8B0000;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+
+nav ul li {
+display: inline-block;
+margin: 0 15px;
+}
+
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+/* Secciones */
+.inicio, .menu-comida, .galeria, .promos {
+padding: 20px;
+text-align: center;
+}
+
+
+/* Productos */
+.producto {
+background: white;
+margin: 20px auto;
+padding: 20px;
+width: 80%;
+border-radius: 10px;
+}
+
+
+.producto img {
+width: 200px;
+border-radius: 10px;
+}
+
+
+/* Galería */
+.galeria img {
+width: 30%;
+margin: 10px;
+border-radius: 10px;
+}
+
+
+/* Promociones */
+.promo {
+background: white;
+margin: 15px auto;
+padding: 20px;
+width: 70%;
+border-radius: 10px;
+border-left: 5px solid #8B0000;
+}
+
+
+footer {
+background-color: #222;
+color: white;
+padding: 10px;
+text-align: center;
+}
